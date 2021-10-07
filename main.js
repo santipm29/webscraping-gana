@@ -3,7 +3,7 @@ const puppeteer = require("puppeteer");
 
 
 const getNumbers = (numbers) => {
-  fullNumber = '';
+  let fullNumber = '';
   for (const number of numbers.values()) {
     fullNumber += number;
   }
